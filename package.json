@@ -1,0 +1,12 @@
+{
+  "license": "Apache-2.0",
+  "description": "Description",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/randy-li/Oct5.git"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0"
+  }
+}
