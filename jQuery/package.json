@@ -1,0 +1,21 @@
+{
+  "license": "Apache-2.0",
+  "description": "Description",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/randy-li/Oct5.git"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "grunt": "^1.0.1",
+    "grunt-cafe-mocha": "^0.1.13",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-exec": "^1.0.1",
+    "mocha": "^3.2.0",
+    "zombie": "^5.0.5"
+  }
+}
