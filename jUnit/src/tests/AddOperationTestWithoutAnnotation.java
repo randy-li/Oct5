@@ -1,5 +1,8 @@
+package tests;
+
 import junit.framework.TestCase;
 import static org.junit.Assert.*;
+import src.AddOperation;
 
 public class AddOperationTestWithoutAnnotation extends TestCase {
 	
