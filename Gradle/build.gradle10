@@ -1,9 +1,9 @@
 task hello {
-doLast {
-println 'Hello world!'
-}
+	doLast {
+		println 'Hello world!'
+	}
 }
 
 hello.doLast {
-println "Greetings fom the $hello.name task."
+	println "Greetings fom the $hello.name task."
 }

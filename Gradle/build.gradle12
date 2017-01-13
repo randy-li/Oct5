@@ -1,11 +1,11 @@
 task hello {
-ext.myProperty = "myValue"
-doLast {
-println 'Hello world!'
-}
+	ext.myProperty = "myValue"
+		doLast {
+			println 'Hello world!'
+		}
 }
 
 hello.doLast {
-println "Greetings fom the $hello.name task."
-println hello.myProperty
+	println "Greetings fom the $hello.name task."
+		println hello.myProperty
 }
