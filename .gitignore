@@ -8,3 +8,6 @@ Express4/node_modules
 HTML5/.settings
 HTML5/.project
 Express4/public/vendor
+jUnit/*.class
+jUnit/*.jar
+
