@@ -12,3 +12,8 @@ jUnit/*.class
 jUnit/*.jar
 Gradle/.gradle
 Gradle/build
+.DS_Store
+*.swp
+.gradle
+jUnit/.gradle
+jUnit/build

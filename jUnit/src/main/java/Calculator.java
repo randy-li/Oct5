@@ -1,8 +1,13 @@
-public class Calculator {
-	public int evaluate(String expression) {
-		int sum = 0;
-		for (String summand: expression.split("\\+"))
-			sum += Integer.valueOf(summand);
-		return sum;
+import java.lang.String;
+
+public class Calculator{
+	public int add(int a, int b){
+		return a - b;
+	}
+
+	public static void main(String[] args){
+		Calculator calculator = new Calculator();
+		int result = calculator.add(1,2);
+		System.out.println(String.valueOf(result));
 	}
 }
